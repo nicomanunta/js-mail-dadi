@@ -1,7 +1,10 @@
 let mail = prompt("Inserire la propria mail")
 
-let list_mail = ["luca@mail.com", "giorgio@mail.com", "davide@mail.com", "michele@mail.com","marco@mail.com"]
+const list_mail = ["luca@mail.com", "giorgio@mail.com", "davide@mail.com", "michele@mail.com","marco@mail.com"]
 console.log(list_mail)
+
+
+let trovata_mail = true
 
 for(let i = 0; i<list_mail.length; i++){
     
